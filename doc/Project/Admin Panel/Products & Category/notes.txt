@@ -1,0 +1,10 @@
+Can use the same layout as products on Funtime.
+
+Make it more neater.
+
+So we can filter them from a drop down or something? Where the red is http://prntscr.com/didolt
+So on growlikes we can choose say Facebook Fan Page Likes and it will show all the FB likes there
+
+When we change something here it will change it on the website.
+
+We don't need "Product Image" or "Product Qty" the product Code should be assigned auto

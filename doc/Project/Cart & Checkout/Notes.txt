@@ -1,0 +1,10 @@
+It will be like woocommerce
+
+We need
+
+- Name
+- Email
+
+We will have the same as buyrealmarketing.com.au cart and checkout.
+
+Expect we will only have PayPal and not other advanced features just yet.

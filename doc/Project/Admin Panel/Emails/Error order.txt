@@ -1,0 +1,15 @@
+Subject: <#123456> ERROR
+
+Hi <NAME> ,
+
+Your order number <#123456>
+
+There is an error with your order, please review the details below to fix this.
+
+<MESSAGE THAT WE TYPE IN THE ADMIN PANEL ORDERS PAGE WILL SHOW HERE>
+
+If you need anything, please simple just reply to this email.
+
+Kind Regards,
+Luke Badger | Tech Team
+GrowLikes.com

@@ -1,0 +1,13 @@
+Subject: New Account Created
+
+Hi <NAME> ,
+
+Your account is created and the login details are below
+
+Username: USERNAME
+Password: PASSWORD
+
+If you need anything, please simple just reply to this email.
+
+Kind Regards,
+GrowLikes.com

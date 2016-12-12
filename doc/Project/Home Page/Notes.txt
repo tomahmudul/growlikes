@@ -1,0 +1,7 @@
+Home page must be like the mockup. Menu taken from buyrealmarketing.com.au the rest from boostlikes.com
+
+Images also provided in the image folder
+
+FAQ's will be like this http://www.buyrealmarketing.com/faq
+
+About us like this http://www.buyrealmarketing.com/about

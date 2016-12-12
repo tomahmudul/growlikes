@@ -1,0 +1,12 @@
+The following emails should be sent to customers
+
+- When account is created
+- When order is submitted will send them an attached PDF invoice of their order
+- When order is in progress
+- When order is completed
+- When there is an error with their order
+
+See each notes for what email should say
+
+
+All should be able to be edited via admin panel like this http://themesdesign.in/xadmino/form-wysiwyg.html

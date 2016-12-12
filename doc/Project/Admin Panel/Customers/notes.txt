@@ -1,0 +1,14 @@
+It will be like Funtime system.
+
+Should show
+
+- All their orders
+- Inside customer info we require this http://prntscr.com/didmzf
+- Still have change photo, change password and notes
+- Add in "Logs" and have basic logs in here like
+* Last login date, time & IP
+* Order placed #123456
+* Password changed date, time & IP
+* What email was sent to them from the system
+
+For the orders we table layout as showen before like this http://prntscr.com/didnsf but should only show this users orders

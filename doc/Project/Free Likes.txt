@@ -1,0 +1,11 @@
+We want something like this added in
+
+http://murlox.com/orders/view_info.php
+admin
+GF4rg5rc4ve3ee
+
+
+See the "Free Facebook Likes" tab... customers can enter in their URL and we give them free FB likes
+But it's only one per URL, one per email & one per IP address.
+
+It should be neatly stored in the admin panel also.

@@ -1,0 +1,30 @@
+We need the orders table fast and easy to use.
+
+This is how the process will work.
+1. Customer comes to the site and buy Facebook fan page likes & Facebook photo likes for example.
+2. They enter in their URL, checkout and pay.
+3. The system will check the Facebook URL and check the start count and this data will be entered in the orders table. Each link will have a new line. It will list Facebook fan page likes for exmaple as the product and then the start count.
+4. We will login to the system copy the link. For all new orders it should show the "Sent" columm so we can tick them and click "Send All" button. This button will only show for Pending orders. Once we click "Send All" it will mark the orders we selected as "In Progress"
+
+See GrowlikesOrder.png image for more info on how it should show. See more below.
+
+- Order number: Will create an order number from 760577 and increase by one each time
+  Date: Will be when the order was placed
+  Who: Will be enterted by myself using this inline edit here http://www.jqueryrain.com/?jHyExoI0 or something like it
+  Link: Will be the link provided by the customer
+  Product: Will be the product they ordered
+  Start count: API will search the link and get the start count (If for some reason it can't get the start count then it will mark as ERROR in start count and I will look into it and edit manully if needed by clicking "Edit" button
+  Remains: API will search for link every 24 hours or whatever you think is best so we don't get banned on API then it will simply do the math "Check start count if amount and start count equal the correct amount then it will be marked completed if there are some left it will show remains a number for example
+  Status: Will start at Pending, once we send the order there should be a button called "Sent" somewhere here LINK then every 12 hours it will check link via API if any amount has added it gets marked in progress if it's all added it will be completed... if it's not completed it will keep checking order every 12 hours till it's completed. Error, Cancelled, Refunded will be set manully by us if needed.
+  Edit: Should be able to edit whole line from this
+  View: Will view the order invoice see "invoice.png"
+
+- I forgot to add in Amount here http://prntscr.com/did4g5
+- See here https://docs.google.com/spreadsheets/d/1em-33n_zA5wjUvHVQbMmMhPcRgm_j54Ky84GfJWPr98/edit#gid=0 we basically want this in table format... and make it automatic so the API will check how many likes there are when the customer orders
+- We want the API to check start counts, and fetch so every 12 hours it will check the current count... once the current count meets the amount it will be completed
+- We use these formuls
+  F2 (Amount) + G2 (Starting count) = H2 (Finished count)
+  H2 (Finished count) - I2 (Current count)
+  =IF(I2 (Current count) >H2 (Finishing count),"Completed","In-Progress")
+
+The table should look like the "Default Example" here http://themesdesign.in/xadmino/tables-datatable.html

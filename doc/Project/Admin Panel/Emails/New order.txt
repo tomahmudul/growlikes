@@ -1,0 +1,16 @@
+Subject: <#123456> New Order
+
+Hi <NAME> ,
+
+Your order number <#123456>
+
+Thank you for your order with us. We really do appreciate you choosing us.
+We will begin to work on your order within 24 hours - 48 hours, but mostly quicker.
+
+You will also find attached your invoice in PDF format.
+
+If you need anything, please simple just reply to this email.
+
+Kind Regards,
+Damien Waters | Sales
+GrowLikes.com
